@@ -1,5 +1,5 @@
 pipeline:
-  name: green_tick2
+  name: green_tick
   identifier: green_tick
   projectIdentifier: DoNotDelete_AR7
   orgIdentifier: default
