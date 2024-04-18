@@ -21,7 +21,7 @@ template:
                 source:
                   type: Inline
                   spec:
-                    script: echo "Hello"
+                    script: echo "slack-fix"
                 environmentVariables: []
                 outputVariables: []
               timeout: <+input>
