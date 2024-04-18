@@ -26,3 +26,9 @@ template:
                 outputVariables: []
               timeout: <+input>
     timeout: <+input>
+    variables:
+      - name: S1
+        type: String
+        description: ""
+        required: false
+        value: <+input>
