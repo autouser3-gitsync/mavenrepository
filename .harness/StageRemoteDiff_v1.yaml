@@ -25,3 +25,4 @@ template:
                 environmentVariables: []
                 outputVariables: []
               timeout: <+input>
+    timeout: <+input>
