@@ -42,7 +42,7 @@ pipeline:
                         script: echo "hi"
                     environmentVariables: []
                     outputVariables: []
-                  timeout: 10m
+                  timeout: <+input>
             rollbackSteps: []
         tags: {}
         failureStrategies:
