@@ -1,0 +1,19 @@
+---
+service:
+  serviceDefinition:
+    type: "Kubernetes"
+    spec:
+      artifacts:
+        primary:
+          spec:
+            connectorRef: "account.CDCNGAuto_ArtifactjzWuZbIZkY"
+            artifactPath: "server/nginx"
+            tag: "1.0"
+            repository: "harness-automation"
+            repositoryFormat: "docker"
+          type: "ArtifactoryRegistry"
+  gitOpsEnabled: false
+  tags: {}
+  orgIdentifier: "default"
+  identifier: "cloneacctoorg_Clone"
+  name: "cloneacctoorg - Clone"
